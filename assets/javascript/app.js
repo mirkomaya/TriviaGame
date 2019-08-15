@@ -12,12 +12,16 @@ var gameQuestions = [
 function viewQuestion() {
     var question  = gameQuestions[currentQuestion].question;
     var choices = gameQuestions[currentQuestion].question;
-    
+
 }
 // append with radio 
+
+$("#questionBox").hide();
 
 
 
 $("#startButton").on("click", function () {
     $("#jumbo").hide();
+    $("#questionBox").show();
+
 });
