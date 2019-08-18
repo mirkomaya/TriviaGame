@@ -12,31 +12,44 @@
 <body>
     <div class="container">
         <div id="jumbo" class="jumbotron">
-            <h1 class="display-4">Trivia Game!</h1>
+            <h1 class="display-4">Pop Culture Trivia Game!</h1>
             <hr class="my-4">
             <button id="startButton" type="button" class="btn btn-dark">Start Game</button>
         </div>
-        <div id="questionBox" class="jumbotron">
+        <h3 id="timer"></h3>
+        <br>
+        <div id="questionBox">
             <form>
-                <h3>How many options do you have?</h3>
-                <br>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio"> Option 1
+                <label class="radio-inline jumbotron">
+                    <h3>Who was named "The King of Pop"?</h3>
+                    <br>
+                    <input class="choice1" type="radio" name="q1" value="Prince"> Prince
+                    <input class="choice1" type="radio" name="q1" value="Elton John"> Elton John
+                    <input class="choice1" type="radio" name="q1" value="Michael Jackson"> Michael Jackson
+                    <input class="choice1" type="radio" name="q1" value="Elvis Presley"> Elvis Presley
                 </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio"> Option 2
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio"> Option 3
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="optradio"> Option 4
+                <!-- <br> -->
+                <label class="radio-inline jumbotron">
+                    <h3>Great fighter that coined the phrase "Float like a butterfly, sting like a bee."</h3>
+                    <br>
+                    <input class="choice2" type="radio" name="q2" value="Mike Tyson"> Mike Tyson
+                    <input class="choice2" type="radio" name="q2" value="Sugar Ray Robinson"> Sugar Ray Robinson
+                    <input class="choice2" type="radio" name="q2" value="Bruce Lee"> Bruce Lee
+                    <input class="choice2" type="radio" name="q2" value="Muhammad Ali"> Muhammad Ali
                 </label>
             </form>
+            <button id="done" type="button" class="btn btn-primary">Done!</button>
+            <br>
+        
         </div>
 
 
+
         <script type="text/javascript" src="assets/javascript/app.js"></script>
+        
+       
+        <!-- source: proprofs.com -->
+        
 
 </body>
 
